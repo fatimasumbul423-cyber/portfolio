@@ -1,0 +1,62 @@
+
+.container1 {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 30px;
+  margin-left: 90px;
+  margin-top: 50px;
+    box-shadow: 5px 0.5rem 2.5rem -0.5rem black;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5f5b5b;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #1a72df;
+}
+
+#Message {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.container2{
+  display: flex;
+}
+.contant{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.link i{
+ font-size: 25px;
+}

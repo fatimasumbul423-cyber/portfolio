@@ -1,0 +1,50 @@
+.portfolio-footer {
+    background-color: black;
+    color: white;
+    height: 330px;
+    font-family: 'Georgia', serif;
+    border-top: 1px solid #e2dcd9;
+}
+
+.footer-links li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.vline {
+    border-left: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    height: 210px;
+
+}
+
+.vline {
+    margin-left: 150px;
+}
+
+.logo img {
+    width: 290px;
+    margin-left: 90px;
+}
+
+.container6 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.menu1 ul li{
+    margin-left: 20px;
+}
+.menu1 h3{
+    margin-left: 30px;
+}
+
+.icon a{
+    color: #e2dcd9;
+    margin-left: 100px;
+    font-size:xx-large;
+   
+}
+.icon :hover{
+    color: rgb(50, 50, 231);
+}

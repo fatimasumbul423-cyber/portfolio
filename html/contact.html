@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../html/about.html">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<body>
+    <script>
+  AOS.init();
+</script>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
+        <div class="container-fluid bg-black  ">
+            <a class="navbar-brand " href="#"><img src="../img/logo - Copy.png" alt="erroe"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../html/about.html">𝑯𝒐𝒎𝒆</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page"
+                            href="../html/about.html">𝑨𝒃𝒐𝒖𝒕</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#skills">𝒔𝒌𝒊𝒍𝒍𝒔</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="../html/contact.html">𝒄𝒐𝒏𝒕𝒂𝒄𝒕</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- contact -->
+    <div class="container2" >
+        <div class="contant">
+            <h1 data-aos="fade-right">𝑪𝒐𝒏𝒕𝒂𝒏𝒕</h1>
+            <p data-aos="fade-right">𝐋𝐞𝐭 𝐜𝐡𝐞𝐜𝐤 𝐚𝐛𝐨𝐮𝐭 𝐲𝐨𝐮𝐫 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 . 𝐏𝐥𝐞𝐚𝐬𝐞 𝐟𝐢𝐥𝐥 𝐨𝐮𝐭 𝐭𝐡𝐢𝐬
+                𝐟𝐨𝐫𝐦 𝐚𝐧𝐝<br>
+                𝐈'𝐥𝐥 𝐠𝐞𝐭 𝐢𝐧 𝐭𝐨𝐮𝐜𝐡 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐬𝐨𝐨𝐧 𝐭𝐨 𝐝𝐢𝐬𝐜𝐮𝐬𝐬 𝐲𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞</p>
+            <h4 data-aos="fade-right">𝑶𝒕𝒉𝒆𝒓 𝒘𝒂𝒚 𝒕𝒐 𝒄𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆 :</h4>
+            <div class="link" data-aos="fade-right">
+                <p>
+                    <i class="fa-solid fa-headphones"></i>
+                    : 03xyz10011
+                </p>
+                <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    : 𝙴𝚖𝚊𝚒𝚕@.𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                    : 𝙼𝚢_𝚙𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘
+                </p>
+                <i class="fa-brands fa-facebook"></i>
+                :  𝙼𝚢_𝚙𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘
+                <p>
+
+                </p>
+            </div>
+        </div>
+
+        <div class="container1">
+            <form id="contactForm">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+                <p id="Message" class="hidden"></p>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <!-- footer -->
+
+    <footer class="portfolio-footer">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="container6">
+                <div class="logo">
+                    <img src="../img/logo - Copy.png" width="100px" alt="">
+                </div>
+                <div class="vline"></div>
+                <div class="menu1" style="margin-left: 100px;">
+                    <h3 style="text-align: center;">𝐌𝐲 𝐩𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨</h3>
+                    <ul class="footer-links">
+                        <li><a href="../html/about.html"></a>Home</li>
+                        <li><a href="../html/about.html"></a>About</li>
+                        <li><a href="../html/about.html"></a>skills</li>
+                        <li><a href="../html/contact.html"></a>contact</li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <div class="vline"></div>
+                </div>
+
+                <div class="icon" style="margin-top: 50px;">
+                    <a
+                        href="https://www.google.com/search?q=instagram&oq=instagram&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8Mg0IAhAAGIMBGLEDGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINjI4MmowajSoAgCwAgE&sourceid=chrome&ie=UTF-8">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a
+                        href="https://www.google.com/search?q=facebook&oq=facebook&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyGwgBEC4YQxiDARjHARixAxjJAxjRAxiABBiKBTISCAIQABhDGIMBGLEDGIAEGIoFMg0IAxAAGJIDGIAEGIoFMgYIBBAFGEAyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1NTU3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a
+                        href="EgZjaHJvbWUqGAgBEC4YQxiDARjHARixAxjRAxiABBiKBTIMCAAQABhDGIAEGIoFMhgIARAuGEMYgwEYxwEYsQMY0QMYgAQYigUyDwgCEAAYQxixAxiABBiKBTIPCAMQABhDGLEDGIAEGIoFMhIIBBAAGEMYgwEYsQMYgAQYigUyEggFEAAYQxiDARixAxiABBiKBTIGCAYQRRg8MgYIBxBFGDzSAQgyNzY3ajBqN6gCALACAA">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
